@@ -6,8 +6,8 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import time
-from base import webbase
-from common import conf,logoutput,getxml,mysql
+from vi.base import webbase
+from vi.common import conf,logoutput,getxml,mysql
 
 class Trousers():
 
